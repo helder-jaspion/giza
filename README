@@ -1,0 +1,37 @@
+Pais
+	nome
+	sigla
+
+UnidadeFederativa
+	nome
+	sigla
+	pais
+
+Municipio
+	nome
+	unidadeFederativa
+
+PessoaFisica
+	nome
+	apelido
+	cpf
+	documentoIdentidade
+	dataNascimento
+	municipioNaturalidade
+	enderecos
+	contatos
+	relacionamentos
+
+DocumentoIdentidade
+	numero
+	orgaoEmissorDocumento
+	unidadeFederativa
+	
+OrgaoEmissorDocumento
+	nome
+	sigla
+	
+Contato
+	tipoContato
+	descricaoTipoPersonalizado
+	descricao
