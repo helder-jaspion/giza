@@ -1,0 +1,5 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-02-27 14:54:58
+hint
+project --topLevelPackage com.jaspions.giza
+hint
+jpa setup --provider ECLIPSELINK --database MYSQL --databaseName giza --userName root --password root
