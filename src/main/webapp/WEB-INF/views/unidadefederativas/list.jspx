@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jaspions_giza_domain_UnidadeFederativa" items="${unidadefederativas}" z="04BxOOWwcfPMejvYg18yvdUN9A8=">
+        <table:table data="${unidadefederativas}" id="l_com_jaspions_giza_domain_UnidadeFederativa" path="/unidadefederativas" z="7GMbMXLKqW2D4NPVjLJw66C5fjw=">
+            <table:column id="c_com_jaspions_giza_domain_UnidadeFederativa_nome" property="nome" z="1RC6oMQbOpLCdWjx5aqDWPBSD5A="/>
+            <table:column id="c_com_jaspions_giza_domain_UnidadeFederativa_sigla" property="sigla" z="7tc09vMERoU8Fbe83VesgDBoIik="/>
+            <table:column id="c_com_jaspions_giza_domain_UnidadeFederativa_pais" property="pais" z="Bm49m7AAQDkj18mZU/J/57s8tI4="/>
+        </table:table>
+    </page:list>
+</div>

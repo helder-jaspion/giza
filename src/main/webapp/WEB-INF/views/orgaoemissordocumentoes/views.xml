@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="orgaoemissordocumentoes/list">
+        <put-attribute name="body" value="/WEB-INF/views/orgaoemissordocumentoes/list.jspx"/>
+    </definition>
+<definition extends="default" name="orgaoemissordocumentoes/show">
+        <put-attribute name="body" value="/WEB-INF/views/orgaoemissordocumentoes/show.jspx"/>
+    </definition>
+<definition extends="default" name="orgaoemissordocumentoes/create">
+        <put-attribute name="body" value="/WEB-INF/views/orgaoemissordocumentoes/create.jspx"/>
+    </definition>
+<definition extends="default" name="orgaoemissordocumentoes/update">
+        <put-attribute name="body" value="/WEB-INF/views/orgaoemissordocumentoes/update.jspx"/>
+    </definition>
+</tiles-definitions>

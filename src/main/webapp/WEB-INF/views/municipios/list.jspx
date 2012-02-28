@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jaspions_giza_domain_Municipio" items="${municipios}" z="1nQAW/B1ijB4X6n4Af8ZQ/D5Rrg=">
+        <table:table data="${municipios}" id="l_com_jaspions_giza_domain_Municipio" path="/municipios" z="86NSWg+0FFLB8Mgyukl644odQ80=">
+            <table:column id="c_com_jaspions_giza_domain_Municipio_nome" property="nome" z="lAH3T4ZmNUVR0NHHM9mbBQSjquE="/>
+            <table:column id="c_com_jaspions_giza_domain_Municipio_unidadeFederativa" property="unidadeFederativa" z="+KZ7iLWi/FE+XU9KubyEweYjN9Y="/>
+        </table:table>
+    </page:list>
+</div>

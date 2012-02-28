@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_jaspions_giza_domain_Contato" modelAttribute="contato" path="/contatoes" versionField="Version" z="CBC3kF8s3hGKS6UN5zLvVblpGYU=">
+        <field:select field="tipoContato" id="c_com_jaspions_giza_domain_Contato_tipoContato" items="${tipocontatoes}" path="tipocontatoes" z="8sv4EZr5m438F2v33d6vl0zy8Gw="/>
+        <field:input field="descricaoTipoPersonalizado" id="c_com_jaspions_giza_domain_Contato_descricaoTipoPersonalizado" z="SO+4VIJUDUzi8A4wWKfxORbiToM="/>
+        <field:input field="descricao" id="c_com_jaspions_giza_domain_Contato_descricao" required="true" z="iRagjvaBXn7lrWiXT9gpPwLgL68="/>
+    </form:update>
+</div>

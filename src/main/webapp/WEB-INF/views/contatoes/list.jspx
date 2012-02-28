@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jaspions_giza_domain_Contato" items="${contatoes}" z="3INpRhkkEW11nHQC5mYMy4ADjEY=">
+        <table:table data="${contatoes}" id="l_com_jaspions_giza_domain_Contato" path="/contatoes" z="S6RhP5FWQ5Xa6C4LDj0csmm7QKI=">
+            <table:column id="c_com_jaspions_giza_domain_Contato_tipoContato" property="tipoContato" z="A5nOd3nuxoZBrRCKL9EsaxvzlM0="/>
+            <table:column id="c_com_jaspions_giza_domain_Contato_descricaoTipoPersonalizado" property="descricaoTipoPersonalizado" z="D3w9exqmVyzvhBv1GceOPZMuyso="/>
+            <table:column id="c_com_jaspions_giza_domain_Contato_descricao" property="descricao" z="c/DmM/2HCiubMg/lTb91/VkU67M="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_pessoafisica" z="hOGk7hmFcaGU7XeXlYGyKYGTC9o=">
+            <menu:item id="i_pessoafisica_new" messageCode="global_menu_new" url="/pessoafisicas?form" z="xl7NCy3gT4+mKiaxMbc1O6oTU60="/>
+            <menu:item id="i_pessoafisica_list" messageCode="global_menu_list" url="/pessoafisicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="JEgIthx2+ntPkRRmktU0Dri8aII="/>
+        </menu:category>
+        <menu:category id="c_unidadefederativa" z="53EgEr1Gu0ImH8UkaJkQvhhdgrk=">
+            <menu:item id="i_unidadefederativa_new" messageCode="global_menu_new" url="/unidadefederativas?form" z="9dvwNMJM/ZQQABaKwE3ENd2AjPo="/>
+            <menu:item id="i_unidadefederativa_list" messageCode="global_menu_list" url="/unidadefederativas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3Axg+j1vEs6GN9fCZf+pAU8mUW4="/>
+        </menu:category>
+        <menu:category id="c_pais" z="m54q1eFKeKDwYcDvxEntiIDT43U=">
+            <menu:item id="i_pais_new" messageCode="global_menu_new" url="/paises?form" z="bxvSTbzPY9x835FOZxoi93U9Jq8="/>
+            <menu:item id="i_pais_list" messageCode="global_menu_list" url="/paises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1OgKfCE2gL1Zr2wu11L9WCy3dB0="/>
+        </menu:category>
+        <menu:category id="c_municipio" z="G1i1l+0Jj7CheJD0pEpQ0TlwDk8=">
+            <menu:item id="i_municipio_new" messageCode="global_menu_new" url="/municipios?form" z="GzuxH9zeNaf+dpdpvNIv/Y7h/KU="/>
+            <menu:item id="i_municipio_list" messageCode="global_menu_list" url="/municipios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IRPalzV2r3dNKaBADDNN1mX8u+U="/>
+        </menu:category>
+        <menu:category id="c_documentoidentidade" z="4bpdZ4m3AL9hhMqaCmDkzUX5PUI=">
+            <menu:item id="i_documentoidentidade_new" messageCode="global_menu_new" url="/documentoidentidades?form" z="ThKe+QnL25c/UZXksrR1fQ8JuR0="/>
+            <menu:item id="i_documentoidentidade_list" messageCode="global_menu_list" url="/documentoidentidades?page=1&amp;size=${empty param.size ? 10 : param.size}" z="TBHH0ZKMqQIglhfTf0cplHbInWg="/>
+        </menu:category>
+        <menu:category id="c_contato" z="+dYH4IXfg5mfp72ft5tm1d51Xq4=">
+            <menu:item id="i_contato_new" messageCode="global_menu_new" url="/contatoes?form" z="N0LLxmpsQG61zKzXXA4GGPgrM6E="/>
+            <menu:item id="i_contato_list" messageCode="global_menu_list" url="/contatoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YUFN6j379uAnc60iOnpStyYI9F8="/>
+        </menu:category>
+        <menu:category id="c_orgaoemissordocumento" z="DNlJsvq4H3NlCK9UY1H8nlCkUNg=">
+            <menu:item id="i_orgaoemissordocumento_new" messageCode="global_menu_new" url="/orgaoemissordocumentoes?form" z="d3hU35M63Q+GNNu069gXdGv/lhA="/>
+            <menu:item id="i_orgaoemissordocumento_list" messageCode="global_menu_list" url="/orgaoemissordocumentoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="cgiD6ne3/wU40ayee1Oz+CarXTc="/>
+        </menu:category>
+    </menu:menu>
+</div>

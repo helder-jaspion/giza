@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jaspions_giza_domain_PessoaFisica" items="${pessoafisicas}" z="PQDTIG98C4krexag13ED7xUvATU=">
+        <table:table data="${pessoafisicas}" id="l_com_jaspions_giza_domain_PessoaFisica" path="/pessoafisicas" z="cq2RHKaa6joz6h+HsoDmRz2hgNE=">
+            <table:column id="c_com_jaspions_giza_domain_PessoaFisica_nome" property="nome" z="A2EipzCoWyIzucQqOtij0BOU8/4="/>
+            <table:column id="c_com_jaspions_giza_domain_PessoaFisica_apelido" property="apelido" z="UN+QlOu7Bg0XBvMZvZNakoK9+y4="/>
+            <table:column id="c_com_jaspions_giza_domain_PessoaFisica_sexo" property="sexo" z="tkp1jCqWThXFAaAWb0jkHyPKaCY="/>
+            <table:column id="c_com_jaspions_giza_domain_PessoaFisica_cpf" property="cpf" z="cQlNsnmuPg582VjZybMbyyeBY6M="/>
+            <table:column id="c_com_jaspions_giza_domain_PessoaFisica_documentoIdentidade" property="documentoIdentidade" z="lCJH1yjohQ8uVSLFe0y+X09Awds="/>
+            <table:column date="true" dateTimePattern="${pessoaFisica_datanascimento_date_format}" id="c_com_jaspions_giza_domain_PessoaFisica_dataNascimento" property="dataNascimento" z="CyBhhRWqQoGMP8eg+9omhtrS35U="/>
+        </table:table>
+    </page:list>
+</div>

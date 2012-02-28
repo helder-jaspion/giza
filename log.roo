@@ -36,4 +36,8 @@ field string --fieldName cpf --notNull
 field reference --fieldName documentoIdentidade --type ~.domain.DocumentoIdentidade --notNull
 field date --fieldName dataNascimento --notNull --type java.util.Date --past
 field reference --fieldName municipioNaturalidade --type ~.domain.Municipio --notNull
-field set --fieldName contatos --type ~.domain.Contato
+field set --fieldName contatos --type ~.domain.Contatoweb mvc setup
+web mvc all --package ~.web
+perform tests
+perform tests
+perform package
