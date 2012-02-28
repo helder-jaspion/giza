@@ -1,11 +1,11 @@
 Pais
-	nome
-	sigla
+	nome : String
+	sigla : String
 
 UnidadeFederativa
-	nome
-	sigla
-	pais
+	nome : String
+	sigla : String
+	pais : Pais
 
 Municipio
 	nome

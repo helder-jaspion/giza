@@ -1,33 +1,52 @@
+project --topLevelPackage com.jaspions.giza
 jpa setup --provider ECLIPSELINK --database MYSQL --databaseName giza --userName root --password root
+
+// class Pais
 entity jpa --class ~.domain.Pais --testAutomatically 
 field string --fieldName nome --notNull 
 field string --fieldName sigla --notNull
+
+// class UnidadeFederativa
 entity jpa --class ~.domain.UnidadeFederativa --testAutomatically
 field string --fieldName nome --notNull 
 field string --fieldName sigla --notNull 
 field reference --fieldName pais --type ~.domain.Pais --notNull 
+
+// class Municipio
 entity jpa --class ~.domain.Municipio --testAutomatically
 field string --fieldName nome --notNull 
 field reference --fieldName unidadeFederativa --type ~.domain.UnidadeFederativa --notNull
+
+// class OrgaoEmissorDocumento
 entity jpa --class ~.domain.OrgaoEmissorDocumento --testAutomatically
 field string --fieldName nome --notNull
 field string --fieldName sigla --notNull
+
+// class DocumentoIdentidade
 entity jpa --class ~.domain.DocumentoIdentidade --testAutomatically
 field string --fieldName numero --notNull
 field reference --fieldName orgaoEmissorDocumento --type ~.domain.OrgaoEmissorDocumento --notNull
 field reference --fieldName unidadeFederativa --type ~.domain.UnidadeFederativa --notNull
+
+//enum Sexo
 enum type --class ~.domain.Sexo
 enum constant --name MASCULINO
 enum constant --name FEMININO
+
+//enum TipoContato
 enum type --class ~.domain.TipoContato
 enum constant --name EMAIL
 enum constant --name TELEFONE
 enum constant --name FAX
 enum constant --name CELULAR
+
+// class Contato
 entity jpa --class ~.domain.Contato --testAutomatically
 field enum --fieldName tipoContato --type ~.domain.TipoContato
 field string --fieldName descricaoTipoPersonalizado
 field string --fieldName descricao --notNull
+
+// class PessoaFisica
 entity jpa --class ~.domain.PessoaFisica --testAutomatically
 field string --fieldName nome --notNull
 field string --fieldName apelido
